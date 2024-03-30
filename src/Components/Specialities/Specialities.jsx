@@ -4,7 +4,7 @@ import Card from "./Card";
 
 function Specialities() {
   return (
-    <div className="specializecontainer">
+    <div className="specializecontainer" id='specializecontainer'>
       <h2 className="services"> - S E R V I C E S</h2>
       <h1 className="specializein"> Specilized in</h1>
       <div className="card_container">
