@@ -6,7 +6,7 @@ import { HiOutlineMail } from "react-icons/hi";
 
 function Froms() {
   return (
-    <div className='Formcontainer'>
+    <div className='Formcontainer' id='Formcontainer'>
         <div className='Right'>
                 <input type="text" name="name" id="name" placeholder='Name' className='input' />
                 <input type="email" name="email" id="email" placeholder='Email' className='input'/>
