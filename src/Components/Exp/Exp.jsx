@@ -3,7 +3,7 @@ import "./Exp.css";
 
 function Exp() {
   return (
-    <div className="exp_container">
+    <div className="exp_container" id='exp_container'>
       <div className="left">
         <div className="title">
           <h2 className="sub_title">- career path</h2>
