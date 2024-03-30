@@ -1,0 +1,53 @@
+.containerNav{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+    margin-top: 50px;
+    text-align: center;
+}
+.containerNav > .leftNav > h1{
+    font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  margin-left: 25px;
+  color: rgb(173, 85, 255);
+}
+.leftNav{
+    display: flex;
+    align-items: center;
+}
+.leftNav > h1{
+    margin-left: 10px;
+}
+.containerNav > ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    text-align: center;
+    margin-top: 15px; 
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+button{
+    background-color: white;
+    margin-left: 15px;
+}
+.RightNav{
+    margin-right: 15px;
+}
+.dark{
+    border: hidden;
+}
+.resume{
+    padding: 10px;
+    border-radius: 8px;
+    border-color: rgba(0, 0, 0, 0.2);
+}
+.classes:hover{
+    transition: all ease-in-out 0.1s;
+    scale: 1.1;
+    border-bottom: 2px solid rgb(173, 85, 255);
+}

@@ -1,0 +1,66 @@
+.containerInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 40px;
+  margin-top: 150px;
+  padding-bottom: 40px;
+}
+.myname {
+  color: rgb(129, 125, 125);
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  padding-bottom: 15px;
+}
+.textpart h1 {
+  color: black;
+  font-optical-sizing: auto;
+  font-weight: 707;
+  font-style: normal;
+}
+.textpart {
+  margin-top: 15px;
+  width: 400px;
+}
+span {
+  color: rgb(173, 85, 255);
+}
+.presentation {
+  color: rgb(129, 125, 125);
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  margin-top: 10px;
+}
+.social {
+  display: flex;
+  gap: 40px;
+  text-decoration: none;
+  list-style: none;
+  margin-top: 15px;
+  padding-left: 70px;
+}
+.imgpart {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(173, 85, 255);
+  rotate: 10deg;
+  border-radius: 20px;
+}
+.img1 {
+  border-radius: 20px;
+  height: 400px;
+  rotate: -10deg;
+  object-fit: contain;
+}
+.imgpart:hover {
+  transition: all ease-in-out 0.4s;
+  rotate: 0deg;
+}
+.img1:hover {
+  transition: all ease-in-out 0.4s;
+  rotate: 0deg;
+}
+.link:hover {
+  transition: all ease-in-out 0.2s;
+  color: rgb(173, 85, 255);
+}

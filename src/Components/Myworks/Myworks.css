@@ -1,0 +1,77 @@
+.Myworkstitle {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  font-variation-settings: "slnt" 0;
+  color: #656d72;
+}
+.Myworkscontainer {
+
+
+  padding: 80px 100px;
+}
+.tophere {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.nextback {
+  border: none;
+  display: flex;
+}
+
+.nextback button {
+  border: none;
+  color: white;
+  background-color: rgb(173, 85, 255);
+  height: 42px;
+  width: 42px;
+  border-radius: 50%;
+  border: 1px solid rgb(159, 67, 245);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.nextback button:hover {
+  background-color: rgb(133, 66, 196);
+  transition: all ease-in-out 0.3s;
+}
+
+.infos {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.links {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.links > button {
+  padding: 5px;
+  border: 1px solid #0000001a;
+  background-color: white;
+  border-radius: 8px;
+  margin: 0;
+}
+.Projects {
+  margin-top: 100px;
+  overflow: hidden;
+  width: 356px;
+  border-radius: 15px;
+  box-shadow: 0px 15px 25px -4px rgba(150, 150, 150, 0.24);
+  border: 1px solid #bfbfbf;
+}
+
+.cards_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  flex-wrap: wrap;
+
+}
+/* 0550268844 */

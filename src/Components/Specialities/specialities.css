@@ -1,0 +1,44 @@
+.specializecontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: #fbfbfb;
+  padding: 100px 40px;
+  margin-top: 100px;
+}
+
+.inside {
+  width: 361px;
+  height: 295px;
+  border: 1px solid #fbfbfb;
+  box-shadow: 0px 15px 25px -4px rgba(150, 150, 150, 0.24);
+  padding: 20px;
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  gap: 15px;
+}
+
+.specializecontainer > h2 {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  font-variation-settings: "slnt" 0;
+  color: #656d72;
+}
+
+.card_container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 150px;
+}
+
+.descreption{
+    margin-top:30px ;
+    width: 300px;
+}
